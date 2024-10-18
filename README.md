@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Installation
 
-git clone 
+git clone https://github.com/ubose15/scheduler-form.git
+cd scheduler-form
+npm start
 
 ### Configurations
 
