@@ -1,38 +1,87 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet');
+
+* {
+  margin: 0px;
+  padding: 0 px;
+  box-sizing: border-box;
+}
+
+.mainContainer {
   text-align: center;
+  margin: 5px;
+  padding: 2px;
+  border-style: hidden;
+  height: 750px;
+  background-color: #fafafa;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Sidebar {
+  width: 30%;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 5px;
+  margin: 5px;
+  background-color: red;
+  float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Content {
+  width: 69%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 100%;
+  background-color: #fafafa;
+  float: right;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 20%;
+  background-color:white;
+  margin: 2px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  justify-content: left;
+}
+.Header .h1{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  justify-content: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ContentBody {
+ 
+  width: 100%;
+  justify-content: left;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  height: 70%;
+  background-color:white;
+  margin: 2px;
+  overflow-y:auto;
+  overflow-x: hidden;
+}
+.Footer {
+  width: 100%;
+  justify-content: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  height: 15%;
+  margin-top: 2px;
+  background-color:white;
+}
+.custom-datepicker {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
 }

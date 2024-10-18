@@ -1,0 +1,32 @@
+[{"formats":[
+    { "value": "csv", "label": "Comma separated values(.csv)" },
+    { "value": "xlsx", "label": "Microsoft Excel(.xlsx)" },
+    { "value": "docx", "label": "Microsoft Word(.docx)" },
+    { "value": "pptx", "label": "Microsoft Powerpoint(.pptx)" },
+    { "value": "pdf", "label": "PDF Document(.pdf)" }
+]},
+  {"timeZones" : [
+    { "value": "UTC", "label": "UTC" },
+    { "value": "GMT", "label": "GMT" },
+    { "value": "EST", "label": "Eastern Standard Time (EST)" },
+    { "value": "CST", "label": "Central Standard Time (CST)" },
+    { "value": "MST", "label": "Mountain Standard Time (MST)" },
+    { "value": "PST", "label": "Pacific Standard Time (PST)" }
+  ]},
+{
+  "timeframe" : [
+    { "value": "day", "label": "Day" },
+    { "value": "week", "label": "Week" },
+    { "value": "month", "label": "Month" }
+  ]
+},
+{
+   "brands" :[
+    {"value":"1","label":"ADJ"},
+    {"value":"2","label":"app"},
+    {"value":"3","label":"dd"},
+    {"value":"4","label":"cc"},
+    {"value":"5","label":"tt"},
+    {"value":"6","label":"mm"}
+   ]
+}]
