@@ -20,7 +20,7 @@ import {
     
     return (
       
-   <div className="contentbody">
+   <div className="ContentBody">
     <Grid container sx={{marginLeft:'2%',width:'95%',marginRight:'2%',gridGap:'10px'}}>
     <Grid
           item

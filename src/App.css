@@ -67,16 +67,7 @@
   overflow-y:auto;
   overflow-x: hidden;
 }
-.Footer {
-  width: 100%;
-  justify-content: left;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 0px;
-  height: 15%;
-  margin-top: 2px;
-  background-color:white;
-}
+
 .custom-datepicker {
   width: 100%;
   padding: 10px;
